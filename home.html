@@ -1,0 +1,39 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Topic-Based Quiz Maker</title>
+    <link rel="stylesheet" href="style.css">
+</head>
+<body>
+    <div class="container">
+        <h1>Topic-Based Quiz Maker</h1>
+        
+        <div class="input-section" id="inputSection">
+            <h2 style="color: white;">Enter a Topic for Your Quiz</h2>
+            <p style="color: white;">Type any topic you're interested in, and we'll generate quiz questions about it!</p>
+            <input type="text" id="topicInput" placeholder="e.g., Solar System, World War II, Machine Learning..."><br>
+            <button id="generateBtn">Generate Quiz</button>
+            <div class="loader" id="loader"></div>
+        </div>
+        
+        <div class="quiz-section" id="quizSection">
+            <div class="progress">
+                <span id="currentQuestion">1</span>/<span id="totalQuestions">5</span>
+            </div>
+            <div id="questionsContainer"></div>
+            <button id="submitBtn">Submit Answers</button>
+        </div>
+        
+        <div class="result-section" id="resultSection">
+            <h2>Quiz Results</h2>
+            <p>You scored: <span id="score">0</span>/<span id="totalScore">5</span></p>
+            <div id="resultDetails"></div>
+            <button id="newQuizBtn">Create New Quiz</button>
+        </div>
+    </div>
+
+    <script src="script.js"></script>
+</body>
+</html>
