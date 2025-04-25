@@ -28,10 +28,8 @@ Optimized for various devices, including desktops, tablets, and smartphones.
 ## Technology Stack
 Frontend: HTML, CSS, JavaScript
 
-Backend: Flask (Python) or Node.js
-
-Database: SQLite, MySQL, or MongoDB
-
-APIs: Custom APIs for handling quiz data
-
 Styling: Responsive design with CSS
+
+## output pictures are also uploaded
+
+## Thank You
